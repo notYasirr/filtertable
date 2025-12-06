@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Filterable Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Filterable Data Table</h2>
+
+  <div class="filters">
+    <input type="text" id="nameFilter" placeholder="Filter by name">
+    <input type="text" id="categoryFilter" placeholder="Filter by category">
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
